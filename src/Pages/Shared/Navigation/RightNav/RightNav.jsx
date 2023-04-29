@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import QKidsZone from "../../QZone/QKidsZone";
 import bg from "../../../../assets/bg.png";
+import ScrollToTop from "react-scroll-to-top";
 
 const RightNav = () => {
   return (
@@ -77,6 +78,7 @@ const RightNav = () => {
           </Button>
         </div>
       </div>
+      <ScrollToTop smooth />
     </div>
   );
 };
